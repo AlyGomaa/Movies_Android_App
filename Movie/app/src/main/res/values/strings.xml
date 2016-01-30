@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail">Movie Details</string>
+    <string name="title_Favourites">Favourites</string>
+
+    <string name="pref_Mov_key" translatable = "false">Movie</string>
+    <string name="pref_Mov_default">1</string>
+    <string name="pref_Mov_summary"></string>
+    <string name="pref_Mov_imperial">2</string>
+
+    <string name="action_refresh" translatable = "false">Refresh</string>
+    <string name="action_favourite" translatable = "false">Favourites</string>
+    <string name="title_activity_movies_favourites">MoviesFavourites</string>
+    <string name="title_activity_favourites_detailed">FavouritesDetailed</string>
+
+</resources>

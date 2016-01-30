@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/sunshine_blue</item>
+        <item name="colorPrimaryDark">@color/sunshine_dark_blue</item>
+    </style>
+
+
+    <style name="MovieTheme" parent="AppTheme">
+        <item name="actionBarStyle">@style/ActionBar.Solid.Movies</item>
+    </style>
+
+    <style name="ActionBar.Solid.Movies" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="displayOptions">useLogo|showHome</item>
+        <item name="logo">@mipmap/movies</item>
+        <!--<item name="title">@string/app_name</item>-->
+    </style>
+
+    <style name="DetailTheme" parent="AppTheme">
+        <item name="actionBarStyle">@style/ActionBar.Solid.Details</item>
+    </style>
+
+    <style name="ActionBar.Solid.Details" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="displayOptions">showTitle|useLogo|showHome</item>
+        <item name="title">@string/title_activity_detail</item>
+    </style>
+
+</resources>

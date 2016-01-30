@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+       android:selectable="false"
+        android:shouldDisableView="true"/>
+
+    <ListPreference
+        android:title="Movies or TV Series"
+        android:key="sortType"
+        android:defaultValue="1"
+        android:entries="@array/Movies_Sort"
+        android:entryValues="@array/Movies_Sort_Values"
+        android:summary="choose between Movies and TV series"/>
+    <ListPreference
+        android:title="Movies order Types "
+        android:key="@string/pref_Mov_key"
+        android:defaultValue="@string/pref_Mov_default"
+        android:entries="@array/Movies_Order"
+        android:entryValues="@array/Movies_Order_Values"
+        android:summary="choose sort type for movies" />
+
+    <CheckBoxPreference
+        android:title="Movies Release Date"
+        android:defaultValue="false"
+        android:summary="This option if selected will allow user to get movies with release year"
+        android:key="releaseDateCheck" />
+
+    <EditTextPreference
+        android:title="Movies Release Date"
+        android:key="releaseDate"
+        android:summary="Please provide movies release date "
+        android:defaultValue="2015"/>
+
+    <CheckBoxPreference
+        android:title="Movies Vote Count"
+        android:defaultValue="false"
+        android:summary="This option if selected will allow user to get movies with minimum vote count"
+        android:key="voteCountCheck" />
+
+    <EditTextPreference
+        android:title="Movies Vote Count"
+        android:key="voteCount"
+        android:summary="Please provide movies vote count"
+        android:defaultValue="100"/>
+
+    <CheckBoxPreference
+        android:title="Adult Filter"
+        android:defaultValue="true"
+        android:summary="This option if selected will allow user to get adult filtered movies"
+        android:key="adultFilter" />
+
+
+
+</PreferenceScreen>

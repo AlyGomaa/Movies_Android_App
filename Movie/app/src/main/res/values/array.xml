@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Movies_Order">
+        <item name = "popular">Most Popular</item>
+        <item name= "rated">Highest Rated</item>
+        <item name= "count">Vote Count</item>
+        <item name= "date">Release Date</item>
+    </string-array>
+
+    <string-array name="Movies_Order_Values">
+        <item name = "popular">1</item>
+        <item name = "rated"  >2</item>
+        <item name = "count"  >3</item>
+        <item name= "date">4</item>
+
+    </string-array>
+
+
+    <string-array name="Movies_Sort">
+        <item name = "movies">Movies</item>
+        <item name= "tv">TV Series</item>
+    </string-array>
+
+    <string-array name="Movies_Sort_Values">
+        <item name = "movies">1</item>
+        <item name = "tv">2</item>
+    </string-array>
+
+</resources>
